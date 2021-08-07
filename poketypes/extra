@@ -1,0 +1,20 @@
+  # return render(request,'home.html',{'response':response})
+# def index(request):
+#     if request.method == 'GET':
+#         r = requests.post('https://pokeapi.co/api/v2/type/{id or name}/', params=request.GET)
+#         json = r.json
+#         print(json)
+#     if r.status_code == 200:
+#         return HttpResponse('Yay, it worked')
+#     return HttpResponse('Could not save data')
+
+
+
+# def index(request):
+#     return HttpResponse("My name is Parth ")
+# Create your views here.
+#     if request.method == 'GET':
+#         r = request.get('https://pokeapi.co/api/v2/type/{id or name}/')
+#         print (r.json)
+    # else:
+    #     r = requests.get('https://pokeapi.co/api/v2/type/{id or name}/', params=request.GET)
